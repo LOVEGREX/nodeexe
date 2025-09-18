@@ -1,4 +1,6 @@
 const http = require('http');
+const { helloFunction } = require('grx-util');
+
 
 const server = http.createServer((req, res) => {
   
@@ -13,7 +15,7 @@ const server = http.createServer((req, res) => {
      res.end(`
       <!DOCTYPE html>
       <html>
-      <h1> hello <h1/>
+      <h1> ${helloFunction()} <h1/>
       </html>
     `);
   }}

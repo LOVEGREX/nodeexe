@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "grx-util": "^1.0.2",
+    "grx-util-ts": "^1.0.1"
+  }
 }
